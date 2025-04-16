@@ -1,8 +1,8 @@
-# CDP Node.js Frontend Template
+# ps-test-160425
 
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_cdp-node-frontend-template&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=DEFRA_cdp-node-frontend-template)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_cdp-node-frontend-template&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DEFRA_cdp-node-frontend-template)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_cdp-node-frontend-template&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DEFRA_cdp-node-frontend-template)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_ps-test-160425&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=DEFRA_ps-test-160425)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_ps-test-160425&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DEFRA_ps-test-160425)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_ps-test-160425&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DEFRA_ps-test-160425)
 
 Core delivery platform Node.js Frontend Template.
 
@@ -37,7 +37,7 @@ easier to use the Node Version Manager [nvm](https://github.com/creationix/nvm)
 To use the correct version of Node.js for this application, via nvm:
 
 ```bash
-cd cdp-node-frontend-template
+cd ps-test-160425
 nvm use
 ```
 
@@ -143,13 +143,13 @@ git config --global core.autocrlf false
 Build:
 
 ```bash
-docker build --target development --no-cache --tag cdp-node-frontend-template:development .
+docker build --target development --no-cache --tag ps-test-160425:development .
 ```
 
 Run:
 
 ```bash
-docker run -p 3000:3000 cdp-node-frontend-template:development
+docker run -p 3000:3000 ps-test-160425:development
 ```
 
 ### Production image
@@ -157,13 +157,13 @@ docker run -p 3000:3000 cdp-node-frontend-template:development
 Build:
 
 ```bash
-docker build --no-cache --tag cdp-node-frontend-template .
+docker build --no-cache --tag ps-test-160425 .
 ```
 
 Run:
 
 ```bash
-docker run -p 3000:3000 cdp-node-frontend-template
+docker run -p 3000:3000 ps-test-160425
 ```
 
 ### Docker Compose
